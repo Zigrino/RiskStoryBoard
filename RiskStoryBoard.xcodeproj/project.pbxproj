@@ -16,6 +16,7 @@
 		B204896B297355D500807D04 /* RiskStoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204896A297355D500807D04 /* RiskStoryBoardTests.swift */; };
 		B2048975297355D500807D04 /* RiskStoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2048974297355D500807D04 /* RiskStoryBoardUITests.swift */; };
 		B2048977297355D500807D04 /* RiskStoryBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2048976297355D500807D04 /* RiskStoryBoardUITestsLaunchTests.swift */; };
+		B204898429735A5000807D04 /* logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204898329735A5000807D04 /* logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B2048970297355D500807D04 /* RiskStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2048974297355D500807D04 /* RiskStoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskStoryBoardUITests.swift; sourceTree = "<group>"; };
 		B2048976297355D500807D04 /* RiskStoryBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskStoryBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B204898329735A5000807D04 /* logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B204895C297355D500807D04 /* Assets.xcassets */,
 				B204895E297355D500807D04 /* LaunchScreen.storyboard */,
 				B2048961297355D500807D04 /* Info.plist */,
+				B204898329735A5000807D04 /* logic.swift */,
 			);
 			path = RiskStoryBoard;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B204898429735A5000807D04 /* logic.swift in Sources */,
 				B2048958297355D400807D04 /* ViewController.swift in Sources */,
 				B2048954297355D400807D04 /* AppDelegate.swift in Sources */,
 				B2048956297355D400807D04 /* SceneDelegate.swift in Sources */,
@@ -440,11 +444,13 @@
 				DEVELOPMENT_TEAM = 5X93CVHHYF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RiskStoryBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskResolver;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +474,13 @@
 				DEVELOPMENT_TEAM = 5X93CVHHYF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RiskStoryBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskResolver;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
